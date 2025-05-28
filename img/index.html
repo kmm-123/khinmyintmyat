@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100 z-3 d-flex justify-content-between">
+  <div class="container">
+    <a class="navbar-brand fs-1" href="#" style="  font-family:Tagesschrift, system-ui;">Coffee</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+      <ul class="navbar-nav" style=" margin-right: 100px;">
+        <li class="nav-item p-4"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item p-4"><a class="nav-link active" href="#">Coffee</a></li>
+        <li class="nav-item p-4"><a class="nav-link active" href="#">Barkey</a></li>
+        <li class="nav-item p-4"><a class="nav-link active" href="#">Shop</a></li>
+        <li class="nav-item p-4"><a class="nav-link active" href="#">About us</a></li>
+         <li class="nav-item p-4"><a class="nav-link active" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        
+      </ul>
+       
+    </div>
+  </div>
+</nav>
+<section class="hero-section d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-white">
+        <h1 class="fw-bold">Welcome!</h1>
+        <p class="fs-4"style="font-family: Ancizar Serif, serif;"> We serve the richest 
+coffe in the city!</p>
+        <a href="#" class="btn btn-dark px-4 py-2 rounded-pill">Order Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      
+      <div class="col-6 col-md-3 mb-4">
+        <i class="fas fa-mug-hot category-icon"></i>
+        <div class="category-label">hot coffee</div>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <i class="fas fa-ice-cream category-icon"></i>
+        <div class="category-label">cold coffee</div>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <i class="fas fa-coffee category-icon"></i>
+        <div class="category-label">cup coffee</div>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <i class="fas fa-birthday-cake category-icon"></i>
+        <div class="category-label">dessert</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="card" style="width: 18rem;">
+  <img src="./img/2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"style=" font-family: Oswald, sans-serif;"> Lungo Coffee</h5>
+    <p class="card-text"> Lungo" is Italian for "long" and refers to 
+the longer extraction time.</p>
+   <div class="s d-flex ms-5">
+<h5 class="me-2  mt-2">Rs.199</h5>
+    <a href="#" class="btn btn-dark px-4 py-2 rounded-pill">Order Now</a>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card" style="width: 18rem;">
+  <img src="./img/3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"style=" font-family: Oswald, sans-serif;">Dalgona  Coffee</h5>
+    <p class="card-text">Dalgona coffee is a frothy, whipped 
+coffee drink where instant coffee.</p>
+<div class="s d-flex ms-5">
+<h5 class="me-2 mt-2 ">Rs.250</h5>
+    <a href="#" class="btn btn-dark px-4  rounded-pill">Order Now</a>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card" style="width: 18rem;">
+  <img src="./img/4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"style=" font-family: Oswald, sans-serif;"> Iced  Coffee</h5>
+    <p class="card-text"> Iced coffee is a coffee beverage 
+served cold.</p>
+   <div class="s d-flex ms-5">
+<h5 class="me-2 mt-2 ">Rs.170</h5>
+    <a href="#" class="btn btn-dark px-4 py-2 rounded-pill">Order Now</a>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-3"><div class="card" style="width: 18rem;">
+  <img src="./img/5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"style=" font-family: Oswald, sans-serif;"> Filter  Coffee</h5>
+    <p class="card-text "> Filter coffee is a coffee drink made by 
+mixing hot milk and sugar.</p>
+   <div class="s d-flex ms-5">
+<h5 class="me-2 mt-2 ">Rs.199</h5>
+    <a href="#" class="btn btn-dark px-4 py-2 rounded-pill">Order Now</a>
+    </div>
+  </div>
+</div></div>
+  </div>
+</div>
+<div class="container my-5">
+  <h1  class="text-center mb-3"style="color: #8B0000;">Our Special Dessert</h1>
+  <div class="row g-4">
+    <div class="col-lg-3 d-flex">
+      <div class="card h-100 w-100">
+        <img src="./img/6.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"style=" font-family: Oswald, sans-serif;"> Gulab Jamun</h5>
+          <p class="card-text flex-grow-1"> Gulab Jamun literally translated 
+to rose berries, while rose means 
+gulab and jamun are deep purple 
+colour berries.
+</p>
+         <div class="s d-flex ms-5">
+<h5 class="me-2  mt-2">Rs.199</h5>
+    <a href="#" class="btn btn-dark px-4 py-2 rounded-pill">Order Now</a>
+    </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 d-flex">
+      <div class="card h-100 w-100">
+        <img src="./img/7.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"style=" font-family: Oswald, sans-serif;"> Dalgona  Coffee</h5>
+          <p class="card-text flex-grow-1">Dalgona coffee is a frothy, whipped 
+coffee drink where instant coffee, 
+sugar, and hot water are whisked 
+together until they form a creamy, light 
+foam.
+</p>
+        <div class="s d-flex ms-5">
+<h5 class="me-2 mt-2 ">Rs.250</h5>
+    <a href="#" class="btn btn-dark px-4 py-2 rounded-pill">Order Now</a>
+    </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 d-flex">
+      <div class="card h-100 w-100">
+        <img src="./img/8.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"style=" font-family: Oswald, sans-serif;"> Chocolate Tiramisu</h5>
+          <p class="card-text flex-grow-1"> It is an Italian dessert made of 
+spongecake pieces soaked in 
+coffee and liqueur, layered with 
+mascarpone cheese and 
+chocolate.</p>
+          <div class="s d-flex ms-5">
+<h5 class="me-2  mt-2">Rs.170</h5>
+    <a href="#" class="btn btn-dark px-4 py-2 rounded-pill">Order Now</a>
+    </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 d-flex ">
+      <div class="card h-100 w-100">
+        <img src="./img/9.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"style=" font-family: Oswald, sans-serif;"> Churros</h5>
+          <p class="card-text flex-grow-1"> It probably takes the name churro 
+from the native churra sheep of Iberia, 
+whose horns the pastry resembles 
+after it has been cooked.
+ Order Now
+ Order</p>
+         <div class="s d-flex ms-5">
+<h5 class="me-2  mt-2">Rs.280</h5>
+    <a href="#" class="btn btn-dark px-4 py-2 rounded-pill">Order Now</a>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ft container">
+  <div class="row">
+    <div class="col-lg-4 ms-5 d-flex flex-column justify-content-center" style="margin-top: 200px;">
+      <h1 class="mb-5">Check out our best<br>coffee betans</h1>
+      <button style="border: none;padding: 10px;border-radius: 10px; background-color: rgb(30, 28, 28);color: white;">Explore Our Product</button>
+    </div>
+  </div>
+</div>
+<div class="container mt-5">
+  <h3 class="text-center mb-2">Come and Join</h3>
+  <h1 class="text-center">OUR HAPPY CUSTOMER</h1>
+  <div class="row d-flex justify-content-between mt-5">
+    <div class="col-lg-4 p-3" style="width: 30%;height: 40vh;background-color: gray;box-shadow: 0 5px 14px rgb(65, 65, 66); border-radius: 10px; overflow: hidden;">
+      <div class="d-flex">
+        <img src="./images (17).jpeg" alt="" style="width: 70px;height: 70px;border-radius: 50%;">
+        <h3 class="pt-3 ps-4">Jone Adonis</h3>
+      </div>
+      <p class="mt-3 fs-9"> Adonis Jones Jr., better known as 
+"Coach AD," is one of the thousands 
+across Los Angeles County who have 
+lost everything. Known for his tough 
+love, "Coach AD" had lived in his home 
+for over 50 years</p>
+    </div>
+     <div class="col-lg-4 p-3" style="width: 30%;height: 40vh;background-color: gray;box-shadow: 0 5px 14px rgb(65, 65, 66); border-radius: 10px; overflow: hidden;">
+      <div class="d-flex">
+        <img src="./images (16).jpeg" alt="" style="width: 70px;height: 70px;border-radius: 50%;">
+        <h3 class="pt-3 ps-4"> Sean Williams</h3>
+      </div>
+      <p class="mt-3 fs-9"> Sean Colin Williams is a Zimbabwean 
+international cricketer who is a former 
+captain of the national team in Test 
+cricket.</p>
+    </div>
+     <div class="col-lg-4 p-3" style="width: 30%;height: 40vh;background-color: gray;box-shadow: 0 5px 14px rgb(65, 65, 66); border-radius: 10px; overflow: hidden;">
+      <div class="d-flex">
+        <img src="./download (13).jpeg" alt="" style="width: 70px;height: 70px;border-radius: 50%;">
+        <h3 class="pt-3 ps-4"> Angela Lee</h3>
+      </div>
+      <p class="mt-3 fs-9"> She holds the record for longest
+championship reign in ONE history at 
+more than seven years.</p>
+    </div>
+
+  </div>
+</div>
+<div class="p2 container mt-5">
+  <div class="row">
+    <div class="col-lg-6 ms-5 d-flex flex-column justify-content-center" style="margin-top: 100px;">
+      <h1 class="mb-2">Join in and get 15% Off</h1>
+      <h4 class="mb-5">Subscribe to our resturtant and get 15% of discount code</h4>
+      <button style="border: none;padding: 10px;border-radius: 10px; background-color: rgb(30, 28, 28);color: white;width: 200px;">Subscribe</button>
+    </div>
+  </div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-6 d-flex justify-content-center">
+      <img src="./img/12.png" alt="">
+    </div>
+    <div class="col-lg-6" style="margin-top: 130px;">
+      <h1 class=" mb-4 ms-4"style="font-family: Oswald, sans-serif;">About us</h1>
+      <p class="pe-5 fs-9"style="font-family: Oswald, sans-serif;"> Coffee is just like life and the variety of it 
+represents all aspects of mine. The smooth liquid never fails to give joy or satisfaction 
+whenever it is being drank. It may be bitter like 
+the challenges we face, but it can be strong like 
+what we should be during challenges.</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid p-5 mt-5" style="background-color: rgb(117, 75, 23);">
+  <div class="row">
+    <div class="col-lg-2 text-center">
+      <ul style="list-style: none;">
+        <h2 class="b"style="font-family: Ancizar Serif, serif;color:white">Coffee</h2>
+        <img src="./img/cafe-7833566_1920-removebg-preview.png" alt="" style="width: 150px;height: 150px;border-radius: 50%;">
+      </ul>
+    </div>
+    <div class="col-lg-10"style=color:white;>
+      <div class="row">
+        <div class="col-lg-3">
+          <ul style="list-style: none;">
+            <h2>Privacy</h2>
+            <li>Teams of Users</li>
+            <li>Privacy Policy</li>
+            <li>Cookies</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul style="list-style: none;">
+            <h2>Services</h2>
+            <li>Shop</li>
+            <li>Order</li>
+            <li>Menu</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul style="list-style: none;">
+            <h2>About us</h2>
+            <li>About us</li>
+            <li>Find a Location</li>
+            <li> Our Story</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul style="list-style: none;">
+            <h2>Informations</h2>
+            <li>Privacy</li>
+            <li>Set Your Product</li>
+            <li>Jobs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex justify-content-center" style="background-color: rgb(143, 93, 28);">
+  <div class="me-5 ">
+  <h3 style="text-align: center; margin-top: 19px;">Social Media</h3>
+  </div>
+  <div class="pt-2">
+  <i class="fa-brands fa-facebook fs-2 p-3"></i>
+   <i class="fa-brands fa-square-instagram fs-2 p-3"></i>
+   <i class="fa-brands fa-telegram fs-2 p-3"></i>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

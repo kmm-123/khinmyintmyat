@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+.hero-section {
+      background-image: url('./img/1.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+    }
+    .p2 {
+      background-image: url('./img/11.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+
+    }
+    .ft {
+      background-image: url('./img/10.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      color: white;
+    }
+    .category-icon {
+      color: #8B0000;
+      font-size: 3rem;
+    }
+    .category-label {
+      color: #8B0000;
+      font-weight: 500;
+      margin-top: 0.5rem;
+    }
+    .card-img-top {
+    height: 400px;
+    object-fit: cover;
+  }
+  .s h5{
+    font-weight: bold;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+  
